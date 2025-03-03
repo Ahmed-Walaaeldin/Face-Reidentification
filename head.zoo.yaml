@@ -1,0 +1,19 @@
+arcface: 
+  s: 64.
+  m: 0.5  
+  
+cosface:
+  s: 64.
+  m: 0.5
+
+magface:
+  s: 64
+  l_margin: 0.45
+  u_margin: 0.8
+  l_a: 10
+  u_a: 110
+  lambda_g: 35
+
+unpg:
+  wisk: 1.5
+  
