@@ -1,0 +1,27 @@
+# Inference + training dependencies (from the original notebooks)
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+pillow
+pyyaml
+
+# Computer vision / models
+albumentations
+opencv-python
+
+# FaceNet
+facenet-pytorch==2.5.3
+
+# ViT
+timm
+
+# Torch stack
+# NOTE: Install torch/torchvision according to your hardware (CPU vs CUDA) if pip cannot auto-resolve.
+torch
+torchvision
+
+# Training-only (kept for completeness)
+torchmetrics
+pytorch-metric-learning

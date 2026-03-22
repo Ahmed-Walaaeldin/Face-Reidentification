@@ -1,0 +1,10 @@
+inference:
+python -m src.inference.predict
+
+training (FaceNet):
+python -m src.training.facenet_stage1
+python -m src.training.facenet_stage2
+
+training (ViT):
+python -m src.training.vit_stage1
+python -m src.training.vit_stage2
